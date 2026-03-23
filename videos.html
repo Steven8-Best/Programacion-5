@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Videos Musicales</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+nav {
+    background: black;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    text-align: center;
+    padding: 30px;
+}
+
+.videos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+iframe {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+}
+</style>
+
+</head>
+
+<body>
+
+<nav>
+    <a href="index.html">Biografía</a>
+    <a href="presentacion.html">Presentación</a>
+    <a href="videos.html">Videos</a>
+</nav>
+
+<div class="container">
+
+    <h1> Videos Musicales </h1>
+
+    <div class="videos">
+
+        <iframe width="300" height="200"
+        src="video1.mp4"
+        allowfullscreen></iframe>
+
+        <iframe width="300" height="200"
+        src="video2.mp4"
+        allowfullscreen></iframe>
+
+        <iframe width="300" height="200"
+        src="video3.mp4"
+        allowfullscreen></iframe>
+
+        <iframe width="300" height="200"
+        src="video4.mp4"
+        allowfullscreen></iframe>
+
+    </div>
+
+</div>
+
+</body>
+</html>
